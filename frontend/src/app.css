@@ -1,3 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+/* Import Google Fonts - Roboto Serif */
+
+/* Global Font Configuration */
+:root {
+	--font-family-primary: 'Roboto Serif', serif;
+	--font-weight-body: 400;
+	--font-weight-semibold: 600;
+	--font-weight-bold: 700;
+}
+
+/* Base font styling applied globally */
+* {
+	font-family: var(--font-family-primary);
+}
+
+body {
+	font-family: var(--font-family-primary);
+	font-weight: var(--font-weight-body);
+}
+
+/* Heading styles - easily customizable */
+h1 {
+	font-family: var(--font-family-primary);
+	font-weight: var(--font-weight-bold);
+	font-size: 2.5rem; /* 40px equivalent */
+}
+
+h2 {
+	font-family: var(--font-family-primary);
+	font-weight: var(--font-weight-bold);
+}
+
+h3 {
+	font-family: var(--font-family-primary);
+	font-weight: var(--font-weight-semibold);
+}
+
+h4 {
+	font-family: var(--font-family-primary);
+	font-weight: var(--font-weight-semibold);
+}
+
+h5 {
+	font-family: var(--font-family-primary);
+	font-weight: var(--font-weight-semibold);
+}
+
+h6 {
+	font-family: var(--font-family-primary);
+	font-weight: var(--font-weight-semibold);
+}
+
+/* Additional text elements */
+p {
+	font-family: var(--font-family-primary);
+	font-weight: var(--font-weight-body);
+}
+
+/* Button and form elements */
+button,
+input,
+textarea,
+select {
+	font-family: var(--font-family-primary);
+}
+
+/* Navigation and link elements */
+a {
+	font-family: var(--font-family-primary);
+}
+
+/* Style for Site Logo */
+.logo-style {
+	font-family: var(--font-family-primary);
+	font-weight: var(--font-weight-semibold);
+}
