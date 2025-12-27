@@ -14,7 +14,7 @@ module.exports = ({ env }) => ({
                     },
                 },
             },
-            // Enable thumbnail generation
+            // Enable thumbnail generation and image optimization
             sizeLimit: 256 * 1024 * 1024, // 256mb
             formats: ['thumbnail', 'large', 'medium', 'small'],
             breakpoints: {
@@ -22,8 +22,10 @@ module.exports = ({ env }) => ({
                 large: 1000,
                 medium: 750,
                 small: 500,
-                xsmall: 64
+                xsmall: 300,
             },
+            sizeOptimization: true,
+            responsiveDimensions: true,
         },
     },
 });
