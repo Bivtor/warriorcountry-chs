@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "archive_links",
+  "info": {
+    "singularName": "archive-link",
+    "pluralName": "archive-links",
+    "displayName": "ArchiveLink"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "category": {
+      "type": "string"
+    },
+    "year": {
+      "type": "integer"
+    }
+  }
+}

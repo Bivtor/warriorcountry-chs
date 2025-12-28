@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "meet_results",
+  "info": {
+    "singularName": "meet-result",
+    "pluralName": "meet-results",
+    "displayName": "MeetResult"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "meetName": {
+      "type": "enumeration",
+      "required": true,
+      "enum": [
+        "RussellCup",
+        "CountyMeet",
+        "AllComers"
+      ]
+    },
+    "year": {
+      "type": "integer",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "results": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepage_settings_mult",
+  "info": {
+    "singularName": "homepage-settings",
+    "pluralName": "homepage-settings-mult",
+    "displayName": "HomepageSettings"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "logoImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "heroTitle": {
+      "type": "string"
+    },
+    "heroSubtitle": {
+      "type": "text"
+    },
+    "featuredNewsCount": {
+      "type": "integer",
+      "required": true,
+      "default": 5
+    }
+  }
+}

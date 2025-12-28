@@ -256,13 +256,11 @@ This guide provides step-by-step instructions for creating the required content 
 - Type: **Long text**
 - Click **Finish**
 
-#### Field 5: instagramEmbedCode (Text)
+#### Field 5: instagramEmbedCode (Text) - NOT USED
 
-- Click **"Add another field"**
-- Select **Text**
-- Name: `instagramEmbedCode`
-- Type: **Long text**
-- Click **Finish**
+- **Note**: Instagram integration is handled externally via Behold widget
+- This field is not needed and can be skipped
+- The frontend will use a Behold embed code from environment variables instead
 
 #### Field 6: featuredNewsCount (Number)
 
