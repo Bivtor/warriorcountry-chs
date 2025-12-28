@@ -83,7 +83,7 @@ This implementation plan breaks down the athletics website redesign into discret
     - Render hero section with logo and hero image
     - Display news cards in grid
     - Add "View All News" button linking to `/news`
-    - Add Instagram embed from settings
+    - Add Behold Instagram widget using PUBLIC_BEHOLD_FEED_ID from env
     - _Requirements: 5.2, 8.1, 8.2, 8.3, 8.4_
 
   - [x] 4.3 Create news archive page in `frontend/src/routes/news/+page.svelte`
@@ -203,7 +203,8 @@ This implementation plan breaks down the athletics website redesign into discret
     - _Requirements: 7.1_
 
   - [ ] 9.2 Create Contact page in `frontend/src/routes/contact/+page.svelte`
-    - Display contact information
+    - Display contact information (email, phone, address)
+    - Add coaching staff information
     - Optionally add contact form
     - _Requirements: 7.1_
 

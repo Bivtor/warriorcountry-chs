@@ -15,7 +15,7 @@ import type {
 } from '$lib/types/strapi';
 
 // Get Strapi URL from environment variable or use default
-const STRAPI_URL = import.meta.env.VITE_STRAPI_URL || 'http://localhost:1337';
+const STRAPI_URL = import.meta.env.VITE_STRAPI_URL;
 
 /**
  * Generic fetch function for Strapi API with error handling

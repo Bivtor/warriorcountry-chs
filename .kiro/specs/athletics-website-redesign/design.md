@@ -176,8 +176,8 @@ This design specifies a school athletics website built with SvelteKit frontend a
   logoImage: media; // Site logo
   heroTitle: string; // Hero heading
   heroSubtitle: text; // Hero subheading
-  instagramEmbedCode: text; // Instagram embed HTML
   featuredNewsCount: number; // Number of news items to show (default: 5)
+  // Note: Instagram integration handled externally via Behold widget (not in Strapi)
 }
 ```
 
@@ -189,8 +189,8 @@ This design specifies a school athletics website built with SvelteKit frontend a
    - Media field: `logoImage` (Single file, Images only)
    - Text field: `heroTitle` (Short text)
    - Text field: `heroSubtitle` (Long text)
-   - Text field: `instagramEmbedCode` (Long text)
    - Number field: `featuredNewsCount` (Integer, default: 5)
+   - **Note**: Instagram integration is handled externally via Behold widget (not stored in Strapi)
 3. Save (no Draft & Publish needed for single types)
 
 ### Strapi Image Configuration
